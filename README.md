@@ -5,4 +5,4 @@
 
 以下是效果图例:
 
-[球星数据比较](https://github.com/CrazyStoneJy/SpiderExercise/blob/master/images/player.png)
+![球星数据比较](https://github.com/CrazyStoneJy/SpiderExercise/blob/master/images/player.png)
