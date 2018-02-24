@@ -74,7 +74,7 @@ class NBA(object):
         radar.config(schema)
         for player, data in array.items():
             radar.add(player, data, is_splitline=True, is_axisline_show=True)
-        radar.render()
+        radar.render('player.html')
 
     def test(self,players_name):
         players = dict()
@@ -94,6 +94,6 @@ class NBA(object):
 
 if __name__ == '__main__':
     nba = NBA()
-    # nba.search_player('斯蒂芬-库里')
+    nba.search_player('斯蒂芬-库里')
     # 霍华德　丹尼-格林
     nba.main()
